@@ -1,7 +1,6 @@
 from nltk.corpus import wordnet
 from collections import defaultdict
 from os import system
-from tqdm import tqdm
 
 setofwords = set(wordnet.words())
 
